@@ -6,12 +6,16 @@ import CitasRutas from '../Rutas/CitasRutas';
 import InfoInstitutoRutas from '../Rutas/InfoInstitutoRutas';
 import TransparenciaRutas from '../Rutas/TransparenciaRutas';
 import '@fontsource/ubuntu';
+import BienesRutas from '../Rutas/BienesRutas';
+import ControlRutas from '../Rutas/ControlRutas';
 
 function Sitemap() {
     const servicios = ServiciosRutas;
     const citas = CitasRutas;
     const infoInstituto = InfoInstitutoRutas;
     const transparenciaRutas = TransparenciaRutas;
+    const bienesRutas = BienesRutas;
+    const controlRutas = ControlRutas;
 
     return (
         <Container>
@@ -28,6 +32,12 @@ function Sitemap() {
                 </Col>
                 <Col className="section" lg={4} md={6} sm={12}>
                     <Section title="Transparencia" servicios={transparenciaRutas} />
+                </Col> 
+                <Col className="section" lg={4} md={6} sm={12}>
+                    <Section title="Bienes inmuebles" servicios={bienesRutas} />    
+                </Col>
+                <Col className="section" lg={4} md={6} sm={12}>
+                    <Section title="Sistema de control interno" servicios={controlRutas} />    
                 </Col>                
             </Row>
         </Container>
