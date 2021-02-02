@@ -164,7 +164,7 @@ const TransparenciaRutas = [
         ]
     },
     {
-        section: "Formato de solicitudes de información",
+        section: "Formatos de solicitudes de información",
         url: "",
         subsections: [
             {
