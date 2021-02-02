@@ -91,7 +91,7 @@ const ServiciosRutas = [
                 url: "http://www.veracruz.gob.mx/ipe/prestamos/" 
             },
             {
-                section: "Prestamos domiciliados a corto plazo",
+                section: "Préstamos domiciliados a corto plazo",
                 url: "",
                 subsections: [
                     {
@@ -105,7 +105,7 @@ const ServiciosRutas = [
                 ]
             },
             {
-                section: "Prestamos domiciliados a mediano plazo",
+                section: "Préstamos domiciliados a mediano plazo",
                 url: "",
                 subsections: [
                     {
@@ -119,7 +119,7 @@ const ServiciosRutas = [
                 ]
             },
             {
-                section: "Requisitos para prestamos",
+                section: "Requisitos para préstamos",
                 url: "",
                 subsections: [
                     {
