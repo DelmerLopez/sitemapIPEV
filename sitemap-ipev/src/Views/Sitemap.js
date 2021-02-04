@@ -1,4 +1,4 @@
-import { Col, Container, Row } from 'react-bootstrap';
+import { Button, Col, Container, Row } from 'react-bootstrap';
 import Section from '../Components/Section';
 import '../styles/sitemap.css';
 import ServiciosRutas from '../Rutas/ServiciosRutas';
@@ -8,6 +8,7 @@ import TransparenciaRutas from '../Rutas/TransparenciaRutas';
 import '@fontsource/ubuntu';
 import BienesRutas from '../Rutas/BienesRutas';
 import ControlRutas from '../Rutas/ControlRutas';
+import { Link } from 'react-router-dom';
 
 function Sitemap() {
     const servicios = ServiciosRutas;
@@ -40,6 +41,11 @@ function Sitemap() {
                     <Section title="Sistema de control interno" servicios={controlRutas} />    
                 </Col>                
             </Row>
+
+            <br />
+            <Button variant="link">
+                <Link to="/SitemapPropuesta2">Ver propuesta 2</Link>
+            </Button>
         </Container>
     );
 }
