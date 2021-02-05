@@ -171,16 +171,6 @@ const ServiciosRutas = [
         ]
     },
     {
-        id: 4,
-        section: "Devoluciones",
-        url: "http://www.veracruz.gob.mx/ipe/devoluciones/"
-    },
-    {
-        id: 5,
-        section: "Cambio de forma de pago",
-        url: "http://www.veracruz.gob.mx/ipe/wp-content/uploads/sites/20/2020/05/Cambio_de_forma_de_pago_2019.pdf"
-    },
-    {
         id: 6,
         section: "Otras prestaciones",
         url: "http://www.veracruz.gob.mx/ipe/otras-prestaciones/",
@@ -202,6 +192,16 @@ const ServiciosRutas = [
                 url: "https://www.dropbox.com/s/egolyqo9j6yub6x/FORMATO_PAGO_DE_DIAS_Y_AGUINALDO_PDF.pdf"
             }
         ]
+    },
+    {
+        id: 4,
+        section: "Devoluciones",
+        url: "http://www.veracruz.gob.mx/ipe/devoluciones/"
+    },
+    {
+        id: 5,
+        section: "Cambio de forma de pago",
+        url: "http://www.veracruz.gob.mx/ipe/wp-content/uploads/sites/20/2020/05/Cambio_de_forma_de_pago_2019.pdf"
     }
 ]
 

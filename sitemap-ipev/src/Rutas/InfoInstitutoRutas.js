@@ -1,7 +1,7 @@
 const InfoInstitutoRutas = [
     {
         id: 1,
-        section: "MarcoHistorico",
+        section: "Marco histórico",
         url: "http://www.veracruz.gob.mx/ipe/wp-content/uploads/sites/20/2020/05/Historia_IPE.pdf"
     },
     {

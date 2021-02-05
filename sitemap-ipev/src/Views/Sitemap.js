@@ -9,6 +9,7 @@ import '@fontsource/ubuntu';
 import BienesRutas from '../Rutas/BienesRutas';
 import ControlRutas from '../Rutas/ControlRutas';
 import { Link } from 'react-router-dom';
+import UnidadGeneroRutas from '../Rutas/UnidadGeneroRutas';
 
 function Sitemap() {
     const servicios = ServiciosRutas;
@@ -17,6 +18,7 @@ function Sitemap() {
     const transparenciaRutas = TransparenciaRutas;
     const bienesRutas = BienesRutas;
     const controlRutas = ControlRutas;
+    const unidadGenero = UnidadGeneroRutas;
 
     return (
         <Container>
@@ -39,7 +41,10 @@ function Sitemap() {
                 </Col>
                 <Col className="section" lg={4} md={6} sm={12}>
                     <Section title="Sistema de control interno" servicios={controlRutas} />    
-                </Col>                
+                </Col>
+                <Col className="section" lg={4} md={6} sm={12}>
+                    <Section title="Unidad de género" servicios={unidadGenero} />    
+                </Col>                 
             </Row>
 
             <br />

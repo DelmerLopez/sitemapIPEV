@@ -134,18 +134,6 @@ const TransparenciaRutas = [
         ]
     },
     {
-        section: "Avisos de privacidad",
-        url: "http://www.veracruz.gob.mx/ipe/transparencia/avisos-de-privacidad-3/"
-    },
-    {
-        section: "Fideicomiso de la reserva técnica",
-        url: "http://www.veracruz.gob.mx/ipe/transparencia/fideicomiso-de-la-reserva-tecnica/"
-    },
-    {
-        section: "Fideicomiso del SAR",
-        url: "http://www.veracruz.gob.mx/ipe/transparencia/fideicomiso-del-sar/"
-    },
-    {
         section: "Evaluación de fondos federales",
         url: "",
         subsections: [
@@ -192,6 +180,18 @@ const TransparenciaRutas = [
     {
         section: "Náhualt: Formatos de solicitudes de información y recursos de revisión",
         url: "http://www.veracruz.gob.mx/ipe/solicitudes-de-informacion-nahuatl/"
+    },
+    {
+        section: "Avisos de privacidad",
+        url: "http://www.veracruz.gob.mx/ipe/transparencia/avisos-de-privacidad-3/"
+    },
+    {
+        section: "Fideicomiso de la reserva técnica",
+        url: "http://www.veracruz.gob.mx/ipe/transparencia/fideicomiso-de-la-reserva-tecnica/"
+    },
+    {
+        section: "Fideicomiso del SAR",
+        url: "http://www.veracruz.gob.mx/ipe/transparencia/fideicomiso-del-sar/"
     }   
 ]
 

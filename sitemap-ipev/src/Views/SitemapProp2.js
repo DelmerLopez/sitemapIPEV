@@ -7,6 +7,7 @@ import TransparenciaRutas from '../Rutas/TransparenciaRutas';
 import BienesRutas from '../Rutas/BienesRutas';
 import ControlRutas from '../Rutas/ControlRutas';
 import '../styles/sitemap.css'
+import UnidadGeneroRutas from '../Rutas/UnidadGeneroRutas';
 
 function SitemapProp2() {
     const servicios = ServiciosRutas;
@@ -15,6 +16,7 @@ function SitemapProp2() {
     const transparenciaRutas = TransparenciaRutas;
     const bienesRutas = BienesRutas;
     const controlRutas = ControlRutas;
+    const unidadGenero = UnidadGeneroRutas;
 
     let contenidoTab = (contenido, section_name) => {
         return(
@@ -56,6 +58,7 @@ function SitemapProp2() {
                         {contenidoTab(transparenciaRutas, "Transparencia")}
                         {contenidoTab(bienesRutas, "Bienes inmuebles")}
                         {contenidoTab(controlRutas, "Sistema de control interno")}
+                        {contenidoTab(unidadGenero, "Unidad de género")}
                     </Tabs>
                 </Col>
             </Row>

@@ -64,10 +64,6 @@ const ControlRutas = [
         ]
     },
     {
-        section: "Capacitación",
-        url: "http://www.veracruz.gob.mx/ipe/sistema-de-control-interno-2/capacitacion/"
-    },
-    {
         section: "COCODI",
         url: "http://www.veracruz.gob.mx/ipe/sistema-de-control-interno-2/cocodi/",
         subsections: [
@@ -80,6 +76,10 @@ const ControlRutas = [
                 url: "http://www.veracruz.gob.mx/ipe/sistema-de-control-interno-2/cocodi/calendario-de-actividades/"
             }
         ]
+    },
+    {
+        section: "Capacitación",
+        url: "http://www.veracruz.gob.mx/ipe/sistema-de-control-interno-2/capacitacion/"
     },
     {
         section: "Código de conducta",
