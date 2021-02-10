@@ -10,3 +10,7 @@
 .section .title-text {
     font-weight: bold;
 }
+
+.subsection .title-text {
+    font-weight: 100;
+}

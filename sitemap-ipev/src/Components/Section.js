@@ -17,7 +17,9 @@ function Section(props) {
                         {props.servicios.map( (servicio, index) => {
                             if(servicio.subsections){
                                 return(
-                                    <Section key={index} title={servicio.section} servicios={servicio.subsections} />
+                                    <div className="subsection">
+                                        <Section key={index} title={servicio.section} servicios={servicio.subsections} />
+                                    </div>
                                 )
                             }
                             else {

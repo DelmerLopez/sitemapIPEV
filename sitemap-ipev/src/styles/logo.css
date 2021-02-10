@@ -1,9 +1,22 @@
 img {
     max-width: 164px;
     height: auto;
+    padding-right: 40 px;
+}
+
+.logo {
+    padding-right: 40px;
 }
 
 .separador {
     height: 1em;
     background-color: #AA983F;
+}
+
+@media only screen and (max-width: 603px) {
+    img {
+        max-width: 110px;
+        height: auto;
+        padding-right: 5px;
+    }
 }
