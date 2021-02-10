@@ -26,7 +26,7 @@ const TransparenciaRutas = [
         ]
     },
     {
-        section: "Obligaciones de tranparencia",
+        section: "Obligaciones de transparencia",
         url: "#",
         subsections: [
             {
