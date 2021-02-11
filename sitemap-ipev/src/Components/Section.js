@@ -24,7 +24,13 @@ function Section(props) {
                             }
                             else {
                                 return(
-                                    <p key={index}><a className="text" key={index} target="blank" href={servicio.url}>{servicio.section}</a></p>
+                                    <Accordion>
+                                        <Card className="card-title-link">
+                                            <Card.Header>
+                                                <a className="text header-link" key={index} target="blank" href={servicio.url}>{servicio.section}</a>
+                                            </Card.Header>
+                                        </Card>
+                                    </Accordion>
                                 )
                             }
                         })}
