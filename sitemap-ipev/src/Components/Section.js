@@ -25,8 +25,8 @@ function Section(props) {
                             else {
                                 return(
                                     <Accordion>
-                                        <Card className="card-title-link">
-                                            <Card.Header>
+                                        <Card>
+                                            <Card.Header className="card-title">
                                                 <a className="text header-link" key={index} target="blank" href={servicio.url}>{servicio.section}</a>
                                             </Card.Header>
                                         </Card>
