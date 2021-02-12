@@ -12,6 +12,7 @@ import { Link } from 'react-router-dom';
 import UnidadGeneroRutas from '../Rutas/UnidadGeneroRutas';
 import Clima from '../Components/Clima';
 import Logos from '../Components/Logos';
+import SitiosInteresRutas from '../Rutas/SitiosInteresRutas';
 
 function Sitemap() {
     const servicios = ServiciosRutas;
@@ -21,6 +22,7 @@ function Sitemap() {
     const bienesRutas = BienesRutas;
     const controlRutas = ControlRutas;
     const unidadGenero = UnidadGeneroRutas;
+    const sitiosRutas = SitiosInteresRutas;
 
     return (
         <div>
@@ -49,6 +51,9 @@ function Sitemap() {
                     </Col>
                     <Col className="section" lg={4} md={6} sm={12}>
                         <Section title="Unidad de género" servicios={unidadGenero} />    
+                    </Col>
+                    <Col className="section" lg={4} md={6} sm={12}>
+                        <Section title="Sitios de interés" servicios={sitiosRutas} />    
                     </Col>                 
                 </Row>
 

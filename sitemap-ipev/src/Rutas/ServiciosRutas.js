@@ -171,6 +171,20 @@ const ServiciosRutas = [
         ]
     },
     {
+        section: "Casa del pensionado",
+        url: "http://www.veracruz.gob.mx/ipe/otras-prestaciones/",
+        subsections: [
+            {
+                section: "Información sobre casa del pensionado",
+                url: "http://www.veracruz.gob.mx/ipe/casa-del-pensionado/"
+            },
+            {
+                section: "Formato de inscripción a la casa del pensionado",
+                url: "https://www.dropbox.com/s/ix6z021b1uw6uyh/Formato%20Solicitud%20Inscripcion%20Casa%20del%20Pensionado%202016.pdf"
+            }
+        ]
+    },
+    {
         id: 6,
         section: "Otras prestaciones",
         url: "http://www.veracruz.gob.mx/ipe/otras-prestaciones/",
