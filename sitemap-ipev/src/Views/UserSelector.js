@@ -1,4 +1,3 @@
-import { useState } from "react";
 import { Link } from 'react-router-dom';
 import { Col, Container, Row, Card } from "react-bootstrap";
 import Persona from '../img/person-male--v3.png';
