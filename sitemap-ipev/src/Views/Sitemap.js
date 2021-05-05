@@ -10,8 +10,6 @@ import BienesRutas from '../Rutas/BienesRutas';
 import ControlRutas from '../Rutas/ControlRutas';
 import { Link } from 'react-router-dom';
 import UnidadGeneroRutas from '../Rutas/UnidadGeneroRutas';
-import Clima from '../Components/Clima';
-import Logos from '../Components/Logos';
 import SitiosInteresRutas from '../Rutas/SitiosInteresRutas';
 
 function Sitemap() {
@@ -26,8 +24,6 @@ function Sitemap() {
 
     return (
         <div>
-            <Clima />
-            <Logos />
             <Container>
                 <h2 className="title">Mapa de sitio del Instituto de Pensiones del Estado de Veracruz</h2>
                 <Row>

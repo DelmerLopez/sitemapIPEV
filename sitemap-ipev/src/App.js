@@ -1,16 +1,24 @@
 import './App.css'; 
-import Sitemap from './Views/Sitemap';
 import 'bootstrap/dist/css/bootstrap.min.css'
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
-import SitemapProp2 from './Views/SitemapProp2';
+import Clima from './Components/Clima';
+import Logos from './Components/Logos';
+import UserSelector from './Views/UserSelector';
+import DerechohabienteSitemap from './Views/DerechohabienteSitemap';
+import './styles/sitemap.css';
+import GobiernoSitemap from './Views/GobiernoSitemap';
 
 function App() {
   return (
     <div className="App">
+      <Clima />
+      <Logos />
+      <h2 className="title">Mapa de sitio del Instituto de Pensiones del Estado de Veracruz</h2>
       <BrowserRouter>
         <Switch>
-          <Route path="/" exact component={Sitemap} />
-          <Route path="/SitemapPropuesta2" component={ SitemapProp2} />
+          <Route path="/" exact component={UserSelector} />
+          <Route path="/Derechohabiente" component={DerechohabienteSitemap} />
+          <Route path="/Gobierno" component={GobiernoSitemap} />
         </Switch>
       </BrowserRouter>
     </div>
