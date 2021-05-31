@@ -14,7 +14,7 @@ function App() {
       <Clima />
       <Logos />
       <h2 className="title">Mapa de sitio del Instituto de Pensiones del Estado de Veracruz</h2>
-      <BrowserRouter>
+      <BrowserRouter basename={'/mapaSitio'}>
         <Switch>
           <Route path="/" exact component={UserSelector} />
           <Route path="/Derechohabiente" component={DerechohabienteSitemap} />
